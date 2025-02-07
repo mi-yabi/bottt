@@ -12,4 +12,4 @@ async def on_ready():
     activity = discord.Game("Playing a game")  # Change "Playing a game" to your custom status
     await bot.change_presence(status=discord.Status.online, activity=activity)
 
-bot.run('TOKEN')
+bot.run('DISCORD_TOKEN')
